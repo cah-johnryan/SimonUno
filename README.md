@@ -9,7 +9,7 @@ Learning how to break down a problem and structure code by creating a simon game
 * 3 1.5k ohm Resistors
 * 1 68 ohm Resistor
 
-Hardware connections are described in the hardware folder, includeing a fritzing project.
+Hardware connections are described in the hardware folder, including a fritzing project.
 
 ## Computer Requirements
 This project requires installing Arduino 1.8.5 and should work with any computer capable of running it.
