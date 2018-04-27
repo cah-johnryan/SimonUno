@@ -24,10 +24,13 @@ This repository has completed source code as it would exist at the end of the le
 We will discuss what a microcontroller is, how to read the hardware schematic and some basic electronics.  This culmiates in how to use GPIO on the microcontroller to output a signal. When complete with this lesson we will have code which will use the piezzo buzzer to generate beeps.
 
 ### Lesson 2a
-We will build upon what we learned in Lesson 1 and learn how to use GPIO to read signals.  This code will read a button and sound the buzzer while the button is pressed.  We also uncover a potential problem with buttons and how fast microcontrollers read signals.
+We will build upon what we learned in Lesson 1 and learn how to use GPIO to read signals.  This code will read a button and sound the buzzer while the button is pressed.
 
 ### Lesson 2b
-We will explore how to de-bounce the button input and implement a keyboard controller to handle multiple buttons.
+We will now create a keyboard controller to read multiple buttons. We also uncover a potential problem with buttons and how fast microcontrollers read signals.
+
+### Lesson 2c
+We will explore how to de-bounce the button inputs to fix our discovered problem in the last lesson.
 
 ### Lesson 3a
 We will review how an RGB led works and create the ability to turn LEDs on and off individually.
