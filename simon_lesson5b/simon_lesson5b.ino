@@ -66,10 +66,14 @@ void loop() {
   
   const Button* const button = keyboard.buttonPressed();
   if (lastButton != button) {
-    lastButton = button;
-    if (button != NULL) {
-      game.buttonPressed(button->getColor());      
+    if (lastButton != NULL) {
+      ledDisplay.turnLedOff(lastButton->getId());
+      game.buttonPressed(lastButton->getColor());   
     }
+    if (button != NULL) {
+      ledDisplay.turnLedOn(button->getId(), button->getColor());
+    }
+    lastButton = button;
   }
 
   switch(game.getState()) {
